@@ -16,6 +16,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myText: UITextField!
     
+    @IBAction func newButtontTaped(_ sender: AnyObject) {
+    }
     @IBAction func myButtonTaped(_ sender: AnyObject) {
         
           if let text = myText.text {
